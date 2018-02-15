@@ -9,4 +9,7 @@ class Operations:
         return x - y
 
     def increment(self,x):
-        return x + 1;
+        return x + 1
+
+    def decrement(self,x):
+        return x - 1
