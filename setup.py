@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-setup(name='testtravis',
+setup(name='travistest',
       version='0.0.1',
       description='Package to get acquainted with travis functionality'
       author='LQ',
