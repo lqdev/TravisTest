@@ -13,3 +13,31 @@ sudo apt install ruby ruby-dev libtool -y
 ```bash
 sudo gem install travis
 ```
+
+## Deployment to Pypi
+
+### Init YAML File
+```yaml
+deploy:
+  provider: pypi
+  user: "YOURUSERNAME"
+```
+
+### Encrypt Passoword
+
+```bash
+travis encrypt --ad deployment.password
+```
+
+Type password into stdin and press `Ctrl + D`
+
+### Encrypted Password YAML
+
+```yaml
+deploy:
+  provider: pypi
+  user: "YOURUSERNAME"
+  password:
+    secure: "YOURPASSWORD"
+```
+
