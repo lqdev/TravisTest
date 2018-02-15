@@ -23,13 +23,13 @@ deploy:
   user: "YOURUSERNAME"
 ```
 
-### Encrypt Passoword
+### Encrypt Password
 
 ```bash
-travis encrypt --ad deployment.password
+travis encrypt --add deployment.password
 ```
 
-Type password into stdin and press `Ctrl + D`
+Type password into `StdIn` and press `Ctrl + D`
 
 ### Encrypted Password YAML
 
@@ -41,3 +41,8 @@ deploy:
     secure: "YOURPASSWORD"
 ```
 
+## Validate .travis.yaml
+
+```bash
+./validate.sh
+```
