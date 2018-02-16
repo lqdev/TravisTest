@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='travistest',
     packages=['travistest'],
-    version='0.0.2',
+    version='0.0.1test',
     description='Test project to get acquainted with TravisCI',
     url='https://github.com/lqdev/TravisTest',    
 )
