@@ -2,7 +2,7 @@ import pytest
 
 @pytest.fixture
 def op():
-    from src.Operations import Operations
+    from travistest.Operations import Operations
     return Operations()
 
 def test_add(op):
