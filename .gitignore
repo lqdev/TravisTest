@@ -2,3 +2,5 @@ ENV/
 *.pyc
 .pytest_cache/
 */__pycache__
+dist/
+MANIFEST.in
