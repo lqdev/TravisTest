@@ -1,6 +1,6 @@
-import pytest
+from pytest import fixture
 
-@pytest.fixture
+@fixture
 def op():
     from travistest.Operations import Operations
     return Operations()
